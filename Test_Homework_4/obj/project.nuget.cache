@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2zyucKimniBlCu9EnDxxVNOEI1z9qwlqBpD5B8TxluQ/zjgrXgmHBYQx1BSV/z7L22PBm1EKaL9NK+oTPN2s5Q==",
+  "dgSpecHash": "Ua5fyNHGUjP/NnxHuTc/kyQfoODeZRwIXJUyW2e4Hb1tX9ahpqweXQpmGl4mAhY2ilrvLi7hDisDMyYSCJovbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\Test_Homework_4\\Test_Homework_4\\Test_Homework_4.csproj",
+  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\Pelemeshka\\Selenium_Advanced_HW4\\Test_Homework_4\\Test_Homework_4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.codecoverage\\16.7.0-preview-20200519-01\\microsoft.codecoverage.16.7.0-preview-20200519-01.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.dotnet.internalabstractions\\1.0.0\\microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",

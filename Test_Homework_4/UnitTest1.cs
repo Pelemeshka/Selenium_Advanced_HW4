@@ -35,7 +35,6 @@ namespace Test_Homework_4
         {
             loginPage = new LoginPage(driver);
             homePage = loginPage.ResultLoginPage(login,password);
-
             // Проверка на открытие страницы Home page после Логина.
             Assert.AreEqual("Home page", homePage.GetNameHomePage());   // Открыта страница Home page.
         }
@@ -47,18 +46,18 @@ namespace Test_Homework_4
             createNewPage = allProductsPage.createNewPage();    // Открываем страницу Create New
             createNewProduct =  createNewPage.CreateCakePops("Cake pops", "Confections", "Specialty Biscuits, Ltd.",
                                "15", "2 boxes x 7 pieces", "20", "0", "10");    // Создаем новый продукт.
-
             // Проверка на открытие страницы All Products после нажатия кнопки "Отправить" страницы Create New.
-            Assert.AreEqual("All Products", allProductsPage.GetNameAllProductsPage());// driver.FindElement(By.XPath("//h2[contains(.,'All Products')]")).Text);
+            Assert.AreEqual("All Products", allProductsPage.GetNameAllProductsPage());
+            // Проверка наличия продукта Cake pops на странице All Products
+            Assert.AreEqual("Cake pops", allProductsPage.GetNameNewProduct());
         }
 
         [Test]
         public void Test5_Logout()      // Проверка на Логаут.
         {
-            driver.FindElement(By.LinkText("Logout")).Click();
-
-            // Проверка на открытие страницы Login  после нажатия кнопки Logout.
-            Assert.AreEqual("Login", driver.FindElement(By.XPath("/html/body/div[1]/h2")).Text);
+            loginPage = allProductsPage.AllProductsPageToLogin();
+            // Проверка на открытие страницы Login  после нажатия кнопки Logout
+            Assert.AreEqual("Login", loginPage.GetNameLoginPage());
         }
     }
 }

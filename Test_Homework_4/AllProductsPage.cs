@@ -22,5 +22,16 @@ namespace Test_Homework_4
         new Actions(driver).Click(clickButtonCreateNew).Build().Perform();
         return new CreateNewPage(driver);
         }
+        private IWebElement MenuLogoutAllProductsPage => driver.FindElement(By.LinkText("Logout"));
+        public LoginPage AllProductsPageToLogin() // Метод нажимает пункт меню Logout.
+        {
+            new Actions(driver).Click(MenuLogoutAllProductsPage).Build().Perform();
+            return new LoginPage(driver);
+        }
+        private IWebElement nameNewProduct => driver.FindElement(By.LinkText("Cake pops"));
+        public string GetNameNewProduct() // Метод возвращает текст названия продукта, находящегося по линку Cake pops.
+        {
+            return nameNewProduct.Text;
+        }
     }
 }

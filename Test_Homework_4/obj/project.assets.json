@@ -3917,11 +3917,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\Test_Homework_4\\Test_Homework_4\\Test_Homework_4.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\Pelemeshka\\Selenium_Advanced_HW4\\Test_Homework_4\\Test_Homework_4.csproj",
       "projectName": "Test_Homework_4",
-      "projectPath": "C:\\Users\\user\\source\\repos\\Test_Homework_4\\Test_Homework_4\\Test_Homework_4.csproj",
+      "projectPath": "C:\\Users\\user\\Source\\Repos\\Pelemeshka\\Selenium_Advanced_HW4\\Test_Homework_4\\Test_Homework_4.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\Test_Homework_4\\Test_Homework_4\\obj\\",
+      "outputPath": "C:\\Users\\user\\Source\\Repos\\Pelemeshka\\Selenium_Advanced_HW4\\Test_Homework_4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

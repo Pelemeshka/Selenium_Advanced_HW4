@@ -23,6 +23,11 @@ namespace Test_Homework_4
             new Actions(driver).SendKeys(Keys.Enter).Build().Perform();
             return new HomePage(driver);
         }
+        private IWebElement nameLoginPage => driver.FindElement(By.XPath("/html/body/div[1]/h2"));
+        public string GetNameLoginPage()  //Метод  возвращает название страницы Login.
+        {
+            return nameLoginPage.Text;
+        }
 
     }
 }

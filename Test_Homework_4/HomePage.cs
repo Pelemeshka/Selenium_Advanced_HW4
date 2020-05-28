@@ -23,5 +23,6 @@ namespace Test_Homework_4
         new Actions(driver).Click(MenuAllProductsPage).Build().Perform();
         return new AllProductsPage(driver);
         }
+
     }
 }
